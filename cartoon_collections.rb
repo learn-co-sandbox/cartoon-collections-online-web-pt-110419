@@ -4,6 +4,7 @@ def roll_call_dwarves(dwarves) # code an argument here
   while i <= dwarves.length
   puts "#{i + 1} + #{dwarves[1]}"
   i += 1
+end
   # if dwarves == 0
    # " "
     # else 

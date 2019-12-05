@@ -2,6 +2,7 @@ require 'pry'
 def roll_call_dwarves(dwarves) # code an argument here
   i = 0 
   while i <= dwarves.length
+  puts "#{i + 1} + #{dwarves[1]}"
   # if dwarves == 0
    # " "
     # else 

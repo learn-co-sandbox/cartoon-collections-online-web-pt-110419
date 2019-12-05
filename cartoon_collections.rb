@@ -8,7 +8,7 @@ def roll_call_dwarves(dwarves) # code an argument here
       
       dwarves.collect do |array, i|
         
-      cartoon << "#{i + 1}. #{array}"
+     # cartoon << "#{i + 1}. #{array}"
   # Your code here
       end
       puts "#{carton.join(" ")}"

@@ -1,6 +1,6 @@
 require 'pry'
 def roll_call_dwarves(dwarves) # code an argument here
-  
+  binding.pry
   if dwarves == 0
     " "
     else 

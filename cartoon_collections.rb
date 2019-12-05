@@ -1,6 +1,6 @@
 require 'pry'
 def roll_call_dwarves(dwarves) # code an argument here
-  binding.pry
+  
   if dwarves == 0
     " "
     else 
@@ -16,6 +16,7 @@ def roll_call_dwarves(dwarves) # code an argument here
 end 
 
 def summon_captain_planet# code an argument here
+ binding.pry
   # Your code here
 end
 

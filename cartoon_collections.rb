@@ -1,9 +1,13 @@
+require 'pry'
 def roll_call_dwarves(dwarves) # code an argument here
+  
   if dwarves == 0
     " "
     else 
       cartoon = []
+      
       dwarves.collect do |array, i|
+        binding.pry
       cartoon << "#{i + 1}. #{array}"
   # Your code here
       end

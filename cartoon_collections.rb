@@ -1,18 +1,18 @@
 require 'pry'
 def roll_call_dwarves(dwarves) # code an argument here
   
-  if dwarves == 0
-    " "
-    else 
-      cartoon = []
+  # if dwarves == 0
+   # " "
+    # else 
+      # cartoon = []
       
-      dwarves.each_with_index do |array, i|
+      # dwarves.each_with_index do |array, i|
         
      # cartoon << "#{i + 1}. #{array}"
   # Your code here
-      end
-      puts "#{carton.join(" ")}"
-  end
+      # end
+      # puts "#{carton.join(" ")}"
+  # end
 end 
 
 def summon_captain_planet# code an argument here

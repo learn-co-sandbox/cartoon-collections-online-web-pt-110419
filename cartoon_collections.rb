@@ -3,7 +3,7 @@ def roll_call_dwarves(dwarves) # code an argument here
     " "
     else 
       cartoon = []
-      dwarf.collect do |array, i|
+      dwarves.collect do |array, i|
       cartoon << "#{i + 1}. #{array}"
   # Your code here
       end

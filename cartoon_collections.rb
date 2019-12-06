@@ -19,7 +19,7 @@ end
 end 
 
 def summon_captain_planet(planeteer_calls) # code an argument here
-planteer_calls.map! {|call|
+planteer_calls.map! {|call| call.capitalize
   # Your code here
 end
 

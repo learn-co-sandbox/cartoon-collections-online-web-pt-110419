@@ -25,10 +25,10 @@ planeteer_calls
 end
 
 def long_planeteer_calls(calls) # code an argument here
-calls.any? do |call|
-  call.length > 4
+  calls.any? do |call|
+    call.length > 4
   # Your code here
-end
+  end
 end
 
 def find_the_cheese(strings) # code an argument here
@@ -36,4 +36,5 @@ def find_the_cheese(strings) # code an argument here
   cheese_types = ["cheddar", "gouda", "camembert"]
   strings.find do |cheese|
     cheese_types.include?(cheese)
+  end
 end
